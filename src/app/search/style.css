@@ -1,0 +1,75 @@
+/* search-page.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+}
+
+.search-page-container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  padding: 10px;
+  width: 70%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-button {
+  background-color: #0074D9;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.profile-list {
+  display: flex;
+  flex-direction: column; /* Profiles arranged in a column */
+  gap: 20px;
+}
+
+.profile-card {
+  display: flex; /* Display image and details side by side */
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-image img {
+  background-color: #3498db; /* Add a blue background color */
+  padding: 10px; /* Optional: Add padding for spacing between the image and the box */
+  border-radius: 8px; /* Optional: Add border-radius for rounded corners */
+}
+
+.profile-details {
+  margin-left: 20px;
+  flex: 1; /* Details take the remaining space */
+}
+
+.profile-name {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.profile-species,
+.profile-breed,
+.profile-location {
+  color: #777;
+  margin: 5px 0;
+}
